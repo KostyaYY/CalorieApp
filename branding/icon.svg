@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#22C55E"/>
+    <stop offset="1" stop-color="#15803D"/>
+  </linearGradient></defs><rect width="1024" height="1024" fill="url(#bg)"/>
+  <defs>
+    <mask id="leafMask">
+      <rect width="1024" height="1024" fill="#000"/>
+      <path d="M512 372 C610 412 628 548 512 652 C396 548 414 412 512 372 Z" fill="#fff"/>
+      <path d="M512 440 L512 640" stroke="#000" stroke-width="16" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <g transform="translate(512 512) scale(1) translate(-512 -512)">
+    <circle cx="512" cy="512" r="250" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="64"/>
+    <circle cx="512" cy="512" r="250" fill="none" stroke="#fff" stroke-width="64" stroke-linecap="round"
+      stroke-dasharray="1225.2211349000193 1570.7963267948965" transform="rotate(-90 512 512)"/>
+    <g transform="rotate(32 512 512)">
+      <rect width="1024" height="1024" fill="#fff" mask="url(#leafMask)"/>
+    </g>
+  </g></svg>

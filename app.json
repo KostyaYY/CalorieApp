@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Ситно",
+    "slug": "calorieapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "calorieapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.kostyayy.calorieapp"
+    },
+    "android": {
+      "package": "com.kostyayy.calorieapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#16A34A",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#16A34A",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "39b97ada-97ef-498c-95e3-3846a6f28445"
+      }
+    },
+    "owner": "kostyayy"
+  }
+}
